@@ -1,0 +1,34 @@
+.list {
+  text-align: left;
+  max-width: 750px;
+  margin: auto;
+}
+
+.submit-form {
+  max-width: 300px;
+  margin: auto;
+}
+
+.edit-form {
+  max-width: 300px;
+  margin: auto;
+}
+.container{
+  max-width: 1280px;
+  width: 100%;
+  margin:0 auto;
+}
+
+.navcontainer{
+  display: flex;
+  justify-content: space-between;
+}
+.buttons-flex{
+  display: flex;
+}
+.responsive-table{
+  overflow-x:auto;
+}
+.align-title{
+  text-align: center;
+}

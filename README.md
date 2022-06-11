@@ -1,45 +1,77 @@
-[![Continuous integration for SAW template](https://github.com/sawmti/saw21_0/actions/workflows/ci.yml/badge.svg)](https://github.com/sawmti/saw21_0/actions/workflows/ci.yml)
+# React.js Hooks CRUD App with Axios & Web API example
+Build a React Hooks CRUD Application to consume Web API with Axios, display and modify data with Router & Bootstrap.
+- Each Tutorial has id, title, description, published status.
+- We can create, retrieve, update, delete Tutorials.
+- There is a Search bar for finding Tutorials by title.
 
-# Project structure
+![react-hooks-crud-axios-api-example](react-hooks-crud-axios-api-example.png)
 
-This repository contains a simple skeleton of a web page which contains a REST service implemented in Node and a simple Web client that invokes the service. 
+For instruction, please visit:
+> [React Hooks CRUD example with Axios and Web API](https://bezkoder.com/react-hooks-crud-axios-api/)
 
-- [client](https://github.com/sawmti/saw21_0/tree/main/client) contains the source code of the web client (html/css/javascript files)
-- [api](https://github.com/sawmti/saw21_0/tree/main/api) contains the source code of the REST API
+More Practice:
+> [React Hooks (Typescript) CRUD example with Axios and Web API](https://bezkoder.com/react-typescript-api-call/)
 
-## Running locally
+> [React Table example: CRUD App with react-table v7](https://bezkoder.com/react-table-example-hooks-crud/)
 
-If you want to execute the project you will need 
-[Node.js and npm](https://www.npmjs.com/get-npm). 
+> [React Pagination using Hooks example](https://bezkoder.com/react-pagination-hooks/)
 
-Compile and run the web app:
+> [React Hooks File Upload example](https://bezkoder.com/react-hooks-file-upload/)
+
+> [React Hooks: JWT Authentication & Authorization example](https://bezkoder.com/react-hooks-jwt-auth/)
+
+> [React + Redux + Hooks: JWT Authentication & Authorization example](https://bezkoder.com/react-hooks-redux-login-registration-example/)
+
+Fullstack with Node.js Express:
+> [React + Node.js Express + MySQL](https://bezkoder.com/react-node-express-mysql/)
+
+> [React + Node.js Express + PostgreSQL](https://bezkoder.com/react-node-express-postgresql/)
+
+> [React + Node.js Express + MongoDB](https://bezkoder.com/react-node-express-mongodb-mern-stack/)
+
+Fullstack with Spring Boot:
+> [React + Spring Boot + MySQL](https://bezkoder.com/react-spring-boot-crud/)
+
+> [React + Spring Boot + PostgreSQL](https://bezkoder.com/spring-boot-react-postgresql/)
+
+> [React + Spring Boot + MongoDB](https://bezkoder.com/react-spring-boot-mongodb/)
+
+Fullstack with Django:
+> [React.js Hooks + Django Rest Framework](https://bezkoder.com/django-react-hooks/)
+
+Serverless with Firebase:
+> [React Firebase Hooks: CRUD App with Realtime Database example](https://bezkoder.com/react-firebase-hooks-crud/)
+
+> [React Hooks Firestore example: CRUD App](https://bezkoder.com/react-hooks-firestore/)
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+### Set port
+.env
+```
+PORT=8081
+```
+
+## Project setup
+
+In the project directory, you can run:
 
 ```
 npm install
+# or
+yarn install
+```
+
+or
+
+### Compiles and hot-reloads for development
+
+```
 npm start
+# or
+yarn start
 ```
 
-You should be able to access the application in [http://localhost:3000](http://localhost:3000).
+Open [http://localhost:8081](http://localhost:8081) to view it in the browser.
 
-## Running from Docker
-
-It is possible to run the application from docker with
-
-```
-docker build -t "saw210" .
-docker run saw210
-```
-
-or 
-
-```
-docker-compose up
-```
-
-## Contributors
-
-- [Jose Emilio Labra Gayo](http://labra.weso.es)
-
-## Credits
-
-This skeleton is based on a [similar skeleton](https://github.com/Arquisoft/radarin_0) created by [Pablo González](https://github.com/pglez82) which is a bit more complex because the web client is implemented as a [React application](https://reactjs.org/) and the server contains monitoring and load testing.
+The page will reload if you make edits.
