@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export default axios.create({
-  baseURL: "http://localhost:3000/",
+  baseURL: "https://mti-saw211.herokuapp.com/",
   headers: {
     "Content-type": "application/json"
   }
